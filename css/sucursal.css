@@ -1,0 +1,190 @@
+.map{
+    width: 700px;
+    height: 310px;
+    position: relative;
+    top: 550px;
+    left: 320px;
+    background: white;
+}
+
+.direccion{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    top: 300px;
+    left: 0px;
+
+}
+.imgsucu{
+    width: 600px;
+    height: 120px;
+    position: relative;
+    left: 339px;
+
+}
+
+.direccion p{
+    width: 200px;
+    height: 100%;
+    
+}
+
+.imgpana{
+    width: 320px;
+    height: 200px;
+    position: relative;
+    top: 340px;
+    left: 20px;
+    
+}
+ .panama{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 500px;
+    left: 60px;
+    
+}
+.panama h3{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 59, 59);
+}
+
+.imgdivi{
+    width: 320px;
+    height: 200px;
+    position: relative;
+    top: 550px;
+    left: 480px;
+}
+.divisa{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 461px;
+    left: 570px;
+  
+}
+.divisa h3{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 59, 59);
+}
+.imgchiri{
+    width: 320px;
+    height: 200px;
+    position: relative;
+    top: 550px;
+    left: -5px;
+    
+}
+
+.chiriqui{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 422px;
+    left: 1000px;
+}
+.chiriqui h3{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(65, 59, 59);
+}
+
+.aisc{
+    width: 100px;
+    width: 100px;
+}
+.aisc img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 5px;
+    left:500px;
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
+    box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3);
+}
+.aisc img:hover {
+    transform: scale(1.1);
+}
+.copysucu{
+    color: #020202;
+    width: 100%;
+    height: 230px;
+    margin-top: 100px;
+    position: relative;
+    top: 700px; left: 0px;
+    background-color: red;
+
+}
+
+img.banf{
+    width: 100%;
+    height: 100%;
+} 
+
+.copysucu h3{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+    font-size: 15px;
+    
+}
+
+.copysucu .p1{
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.copysucu p{
+    position: absolute;
+    top: 90px;
+    left: 15px;
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.copysucu .correo{
+    position: absolute;
+    top: 120px;
+    left: 15px;
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+    
+}
+
+.copysucu .numero{
+    position: absolute;
+    top: 150px;
+    left: 15px;
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+    
+}
+
+.copysucu blockquote{
+    position: relative;
+    left: 127px;
+    font-weight: bold;
+    width: 1050px;
+    height: 20px;
+}
+
+
+
+
+

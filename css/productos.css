@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+.contenido{
+   
+    width: 100%;
+    height: 10px;
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+    top: 200px;
+}
+.mostrador{
+    width: 100%;
+    height: 0px;
+    transition: .5s ease;
+    position: relative;
+    top: 10px;
+    background-color: #707070;
+}
+
+
+.mostrador .fila{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.mostrador .fila .item{
+    max-width: 210px;
+    padding: 30px;
+    height: 250px;
+    /*border: 2px solid red;*/
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+.mostrador .fila .item:hover{
+    height: 240px;
+    background-color: #e6e6e6;
+}
+.mostrador .fila .item img{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+}
+.mostrador .fila .item .descripcion{
+
+    color: #707070;
+    font-weight: bold;
+}
+.mostrador .fila .item .precio{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.seleccion{
+    transition: .5s ease;
+    opacity: 0;
+    width: 0%;
+    border: 1px solid #ccc;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.cerrar{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.info{
+    padding: 20px;
+}
+.info img{
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+}
+.info h2{
+    color: #707070;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+.info .precio{
+    font-size: 30px;
+    font-weight: bold;
+    color: #f85151;
+    margin-bottom: 10px;
+    display: block;
+}
+.info .fila{
+    display: flex;
+    align-items: flex-end;
+}
+.info .fila label{
+    display: block;
+    margin-bottom: 10px;
+}
+.info .fila select{
+    width: 100px;
+    font-size: 18px;
+    padding: 6px;
+    margin-right: 30px;
+}
+.info .fila button{
+    height: 40px;
+    border: none;
+    padding: 0 10px;
+    color: #fff;
+    background-color: #f85151;
+}
+
+.aisc{
+    width: 100px;
+    width: 100px;
+}
+.aisc img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 5px;
+    left:500px;
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
+    box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3);
+}
+.aisc img:hover {
+    transform: scale(1.1);
+}
+
+/*CSS para productos acero*/
+
+div.catalogoAcero{
+    margin: 50px 20px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 200px;
+}
+div.catalogoAcero img{
+    width: 100%;
+    height: auto;
+}
+div.catalogoAcero:hover{
+    border: 1px solid red;
+    transform: rotate(-3deg);
+}
+div.pie{
+    text-align: center;
+    padding: 10px;
+}
+
+/*CSS para productos S. constructivos*/
+div.catalogoConst{
+    margin: 50px 40px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 200px;
+}
+div.catalogoConst img{
+    width: 100%;
+    height: auto;
+}
+div.catalogoConst:hover{
+    border: 1px solid red;
+    transform: rotate(-3deg);
+}
+div.pie{
+    text-align: center;
+    padding: 10px;
+}
+
+/*CSS para productos Fabricacion*/
+div.catalogoFa{
+    margin: 50px 40px;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 200px;
+}
+div.catalogoFa img{
+    width: 100%;
+    height: auto;
+}
+div.catalogoFa:hover{
+    border: 1px solid red;
+    transform: rotate(-3deg);
+}
+div.pie{
+    text-align: center;
+    padding: 10px;
+}
