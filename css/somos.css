@@ -1,18 +1,18 @@
 
 .banner1{
-    position: relative;
-    width: 0px;
+    position: absolute;
+    width: 90px;
     height: 0px;
     top: 400px;
     right: -400;
-    left: -112px;
+    left: -90px;
     font-size: 14px;
-    min-width: 150px;
+    min-width: 230px;
     display: flex;
 }
 .ban1{
-    position: relative;
-    width: 1400px;
+    position: absolute;
+    width: 1439px;
     height: 550px;
     top: -250px;
     right: -400;
@@ -103,7 +103,7 @@ p.mision{
     height: 10px;
     top: 265px;
     right: 20px;
-    left: 530px;
+    left: 630px;
     font-size: 14px;
     color: grey;
     
@@ -122,7 +122,7 @@ p.mision{
     height: 0px;
     top: 900px;
     right: 500;
-    left: 450px;
+    left: 540px;
 }
 
 .franja1{
@@ -144,7 +144,7 @@ img.logo2{
     height: 0px;
     top: 1200px;
     right: 20px;
-    left: 0px;
+    left: 40px;
     font-size: 14px;
     
 }
@@ -162,7 +162,7 @@ p.historia{
     height: 300px;
     top: 1200px;
     right: 60px;
-    left: 630px;
+    left: 700px;
     color: black;
     font-size: 18px;
     text-align: justify;
@@ -271,6 +271,5 @@ img.banf{
     height: 20px;
  
 }
-
 
 
