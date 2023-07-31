@@ -65,6 +65,7 @@ i{
 header .search-box{
     flex: 1;
     position: absolute;top: 200x; left: 1050px;  
+    background: #000;
 }
 .search-box input{
     width: 100%;
@@ -76,6 +77,7 @@ header .search-box{
     color: brown;
     font-size: 16px;
     text-align: center;
+    background: #000;
 }
 .search-box button{
     cursor: pointer;
@@ -95,14 +97,16 @@ header .search-box{
 
 header ul{
     flex: 2;
+    width: 1000px;
     display: flex;
     justify-content: space-evenly;
-    position: absolute;
-    top: 50px;  
+    position: relative;
+    top: 50px;  left: px;
+   
 }
 header ul li{
-    list-style: none;
-
+    list-style: none; 
+    
 }
 header ul li a{
     text-decoration: none;
@@ -121,7 +125,7 @@ header .menu{
 
 
 .container__header{
-    max-width: 1200px;
+    max-width: 19px;
     height: 100%;
     margin: auto;
     padding: 10px;
@@ -130,6 +134,7 @@ header .menu{
     justify-content: space-between;
     align-items: center;
     padding: 40px;
+    
 }
 
 .logo img{
@@ -157,6 +162,7 @@ left: 260px;
     background-color: red;
 }
 .menu-vertical{
+    width: 190px;
     position: absolute;
     display: none;
     list-style: none;
@@ -204,7 +210,7 @@ left: 260px;
 .gal{
     width: 0;
     position: relative;
-    left: 71px;
+    left: 110px;
 }
 .galery{
     display: flex;
@@ -357,7 +363,7 @@ main{
 }
 /*Silder*/
 .slider{
-    width: 1253px;
+    width: 1343px;
     display: flex;
     height: 100px;
     margin: 10px;
@@ -552,7 +558,7 @@ box-shadow: 0 30PX 20px #5555;
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 2000px;
+    top: 2000px; 
 }
 .bannerpro img{
     width: 100%;
@@ -768,4 +774,52 @@ box-shadow: 0 30PX 20px #5555;
     }
     
 
+}
+
+@media screen and (max-width:980px) {
+    .container {
+        width:98%;
+    }
+    section {
+        width:68%;
+    }
+}
+
+/* para 700px o menos */
+@media screen and (max-width:700px) {
+    aside,section {
+        float:none;
+        width:96%;
+    }
+    nav, section {
+        font-size:1.2em;
+    }
+    aside {
+        margin-top:5px;
+    }
+    nav ul {
+        float:none;
+        clear:both;
+    }
+}
+
+/* para 480px o menos */
+@media screen and (max-width:480px) {
+    aside {
+        display:none;
+    }
+    nav, section {
+        font-size:1.5em;
+    }
+    section {
+        width:94%;
+    }
+    nav ul {
+        float:left;
+        clear:none;
+        width:50%;
+    }
+    nav ul li {
+        float:none;
+    }
 }
