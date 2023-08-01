@@ -162,6 +162,10 @@ div.pie{
     padding: 10px;
 }
 
+.mobe{
+    position: absolute;
+    top: 100px; left: 110px;
+}
 /*CSS para productos S. constructivos*/
 div.catalogoConst{
     margin: 50px 40px;
